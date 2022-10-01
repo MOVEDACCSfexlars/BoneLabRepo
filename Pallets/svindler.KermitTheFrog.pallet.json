@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "root": {
+    "ref": "o:1",
+    "type": "t:1"
+  },
+  "objects": {
+    "o:1": {
+      "barcode": "svindler.KermitTheFrog",
+      "title": "KermitTheFrog",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "author": "svindler",
+      "version": "0.0.0",
+      "sdkVersion": "0.3.4-1649",
+      "internal": false,
+      "crates": [
+        {
+          "ref": "o:2",
+          "type": "t:2"
+        }
+      ],
+      "tags": [],
+      "changelogs": [],
+      "isa": {
+        "type": "t:1"
+      }
+    },
+    "o:2": {
+      "barcode": "svindler.KermitTheFrog.Avatar.KermitTheFrogbySvindler",
+      "title": "Kermit The Frog by Svindler",
+      "description": "",
+      "unlockable": false,
+      "redacted": false,
+      "mainAsset": "79ca431b349c3cb4caf76036b3f7891f",
+      "tags": [],
+      "packedAssets": [
+        {
+          "title": "PreviewMesh",
+          "guid": "17a4c723020437844ac4ce748099c057"
+        }
+      ],
+      "colliderBounds": {
+        "center": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "extents": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "isa": {
+        "type": "t:2"
+      }
+    }
+  },
+  "types": {
+    "t:1": {
+      "type": "t:1",
+      "fullname": "SLZ.Marrow.Warehouse.Pallet, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    },
+    "t:2": {
+      "type": "t:2",
+      "fullname": "SLZ.Marrow.Warehouse.AvatarCrate, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+    }
+  }
+}
