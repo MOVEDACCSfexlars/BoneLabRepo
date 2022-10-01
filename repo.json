@@ -24,16 +24,16 @@
             }
         },
         "o:2": {
-            "barcode": "SLZ.DuckSeason",
+            "barcode": "Svindler.MasterChief",
             "title": "Master Chief",
             "description": "Wow!",
             "author": "Svindler",
             "version": "0.0.0",
             "sdkVersion": "0.3.0-1486",
             "internal": false,
-            "tags": [ ],
-            "thumbnailUrl": "https://cdn.discordapp.com/attachments/622251694411218944/1013564664015229048/unknown.png",
-            "manifestUrl": "https://cdn.discordapp.com/attachments/622251694411218944/1025624714942615602/pallet.json",
+            "tags": [ "Avatar" ],
+            "thumbnailUrl": "https://mods.stresslevelzero.com/SLZ.DuckSeason/thumbnail.png",
+            "manifestUrl": "https://raw.githubusercontent.com/fexlars/BoneLabRepo/main/Pallets/Svindler.MasterChief.pallet.json",
             "targets": {
                 "oculus-quest": {
                     "ref": "o:4",
@@ -48,16 +48,55 @@
                 "type": "t:2"
             }
         },
+        "o:3": {
+            "barcode": "svindler.KermitTheFrog",
+            "title": "Kermit The Frog",
+            "description": "Wow!",
+            "author": "Svindler",
+            "version": "0.0.0",
+            "sdkVersion": "0.3.0-1486",
+            "internal": false,
+            "tags": [ "Avatar" ],
+            "thumbnailUrl": "https://mods.stresslevelzero.com/SLZ.DuckSeason/thumbnail.png",
+            "manifestUrl": "https://github.com/fexlars/BoneLabRepo/raw/main/Pallets/svindler.KermitTheFrog.pallet.json",
+            "targets": {
+                "oculus-quest": {
+                    "ref": "o:6",
+                    "type": "t:3"
+                },
+                "pc": {
+                    "ref": "o:7",
+                    "type": "t:3"
+                }
+            },
+            "isa": {
+                "type": "t:2"
+            }
+        },
         "o:4": {
             "thumbnailOverride": null,
-            "url": "https://cdn.discordapp.com/attachments/622251694411218944/1025624541545902190/Svindler.MasterChief.zip",
+            "url": "https://github.com/fexlars/BoneLabRepo/raw/main/Files/Svindler.MasterChief.QUEST.zip",
             "isa": {
                 "type": "t:3"
             }
         },
         "o:5": {
             "thumbnailOverride": null,
-            "url": "https://cdn.discordapp.com/attachments/622251694411218944/1025624983155781682/Svindler.MasterChief.zip",
+            "url": "https://github.com/fexlars/BoneLabRepo/raw/main/Files/Svindler.MasterChief.PCVR.zip",
+            "isa": {
+                "type": "t:3"
+            }
+        },
+        "o:6": {
+            "thumbnailOverride": null,
+            "url": "https://github.com/fexlars/BoneLabRepo/raw/main/Files/svindler.KermitTheFrog.QUEST.zip",
+            "isa": {
+                "type": "t:3"
+            }
+        },
+        "o:7": {
+            "thumbnailOverride": null,
+            "url": "https://github.com/fexlars/BoneLabRepo/raw/main/Files/svindler.KermitTheFrog.PCVR.zip",
             "isa": {
                 "type": "t:3"
             }
