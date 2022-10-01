@@ -1,0 +1,81 @@
+{
+
+    "version": 1,
+    "root": {
+        "ref": "o:1",
+        "type": "t:1"
+    },
+    "objects": {
+        "o:1": {
+            "title": "Fexlar's Unoffical Mod Repository",
+            "description": "Unoffical Mods!",
+            "mods": [
+                {
+                    "ref": "o:2",
+                    "type": "t:2"
+                },
+                {
+                    "ref": "o:3",
+                    "type": "t:2"
+                }
+            ],
+            "isa": {
+                "type": "t:1"
+            }
+        },
+        "o:2": {
+            "barcode": "SLZ.DuckSeason",
+            "title": "Master Chief",
+            "description": "Wow!",
+            "author": "Svindler",
+            "version": "0.0.0",
+            "sdkVersion": "0.3.0-1486",
+            "internal": false,
+            "tags": [ ],
+            "thumbnailUrl": "https://cdn.discordapp.com/attachments/622251694411218944/1013564664015229048/unknown.png",
+            "manifestUrl": "https://cdn.discordapp.com/attachments/622251694411218944/1025624714942615602/pallet.json",
+            "targets": {
+                "oculus-quest": {
+                    "ref": "o:4",
+                    "type": "t:3"
+                },
+                "pc": {
+                    "ref": "o:5",
+                    "type": "t:3"
+                }
+            },
+            "isa": {
+                "type": "t:2"
+            }
+        },
+        "o:4": {
+            "thumbnailOverride": null,
+            "url": "https://cdn.discordapp.com/attachments/622251694411218944/1025624541545902190/Svindler.MasterChief.zip",
+            "isa": {
+                "type": "t:3"
+            }
+        },
+        "o:5": {
+            "thumbnailOverride": null,
+            "url": "https://cdn.discordapp.com/attachments/622251694411218944/1025624983155781682/Svindler.MasterChief.zip",
+            "isa": {
+                "type": "t:3"
+            }
+        }
+    },
+    "types": {
+        "t:1": {
+            "type": "t:1",
+            "fullname": "SLZ.Marrow.Forklift.Model.ModRepository, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "t:2": {
+            "type": "t:2",
+            "fullname": "SLZ.Marrow.Forklift.Model.ModListing, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        },
+        "t:3": {
+            "type": "t:3",
+            "fullname": "SLZ.Marrow.Forklift.Model.DownloadableModTarget, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+    }
+
+}
