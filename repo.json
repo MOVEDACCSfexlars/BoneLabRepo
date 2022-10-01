@@ -1,5 +1,4 @@
 {
-
     "version": 1,
     "root": {
         "ref": "o:1",
@@ -21,6 +20,10 @@
                 {
                     "ref": "o:10",
                     "type": "t:2"
+                },
+                {
+                    "ref": "o:12",
+                    "type": "t:2"
                 }
             ],
             "isa": {
@@ -35,7 +38,9 @@
             "version": "0.0.0",
             "sdkVersion": "0.3.0-1486",
             "internal": false,
-            "tags": [ "Avatar" ],
+            "tags": [
+                "Avatar"
+            ],
             "thumbnailUrl": "https://mods.stresslevelzero.com/SLZ.DuckSeason/thumbnail.png",
             "manifestUrl": "https://raw.githubusercontent.com/fexlars/BoneLabRepo/main/Pallets/Svindler.MasterChief.pallet.json",
             "targets": {
@@ -60,7 +65,9 @@
             "version": "0.0.0",
             "sdkVersion": "0.3.0-1486",
             "internal": false,
-            "tags": [ "Avatar" ],
+            "tags": [
+                "Avatar"
+            ],
             "thumbnailUrl": "https://mods.stresslevelzero.com/SLZ.DuckSeason/thumbnail.png",
             "manifestUrl": "https://github.com/fexlars/BoneLabRepo/raw/main/Pallets/svindler.KermitTheFrog.pallet.json",
             "targets": {
@@ -85,7 +92,9 @@
             "version": "0.0.0",
             "sdkVersion": "0.3.0-1486",
             "internal": false,
-            "tags": [ "Avatar" ],
+            "tags": [
+                "Avatar"
+            ],
             "thumbnailUrl": "https://mods.stresslevelzero.com/SLZ.DuckSeason/thumbnail.png",
             "manifestUrl": "https://github.com/fexlars/BoneLabRepo/raw/main/Pallets/cvrnage.gordonfreeman.pallet.json",
             "targets": {
@@ -143,6 +152,47 @@
             "isa": {
                 "type": "t:3"
             }
+        },
+        "o:12": {
+            "barcode": "Fexlar.BigFella",
+            "title": "14ft Tall Avatar",
+            "description": "Wow!",
+            "author": "Fexlar",
+            "version": "0.0.0",
+            "sdkVersion": "0.3.0-1486",
+            "internal": false,
+            "tags": [
+                "Avatar"
+            ],
+            "thumbnailUrl": "https://mods.stresslevelzero.com/SLZ.DuckSeason/thumbnail.png",
+            "manifestUrl": "https://github.com/fexlars/BoneLabRepo/raw/main/Pallets/Fexlar.BigFella.pallet.json",
+            "targets": {
+                "oculus-quest": {
+                    "ref": "o:13",
+                    "type": "t:3"
+                },
+                "pc": {
+                    "ref": "o:14",
+                    "type": "t:3"
+                }
+            },
+            "isa": {
+                "type": "t:2"
+            }
+        },
+        "o:13": {
+            "thumbnailOverride": null,
+            "url": "https://cdn.discordapp.com/attachments/622251694411218944/1025880017391071243/Fexlar.BigFella.QUEST.zip",
+            "isa": {
+                "type": "t:3"
+            }
+        },
+        "o:14": {
+            "thumbnailOverride": null,
+            "url": "https://cdn.discordapp.com/attachments/622251694411218944/1025880017009385472/Fexlar.BigFella.PC.zip",
+            "isa": {
+                "type": "t:3"
+            }
         }
     },
     "types": {
@@ -159,5 +209,4 @@
             "fullname": "SLZ.Marrow.Forklift.Model.DownloadableModTarget, SLZ.Marrow.SDK, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
         }
     }
-
 }
